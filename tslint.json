@@ -1,0 +1,22 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "rulesDirectory": "./",
+    "rules": {
+        "ordered-imports": [false],
+        "object-literal-sort-keys": [false],
+        "no-console": {
+            "severity": "off",
+            "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+        },
+        "member-access": false,
+        "jsx-no-lambda": false,
+        "interface-name":{"severity":"error"},
+        "interface-over-type-literal": {"severity": "none"}
+    },
+    "jsRules": {
+        "max-line-length": {
+            "options": [120]
+        }
+    },
+    "linterOptions": {"exclude": ["node_modules/**/*.ts"]}
+}
