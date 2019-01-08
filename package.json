@@ -2,6 +2,7 @@
   "name": "demo-rwts",
   "version": "0.1.1",
   "private": true,
+  "homepage": "https://github.com/AmySS",
   "dependencies": {
     "@types/jest": "23.3.10",
     "@types/node": "10.12.12",

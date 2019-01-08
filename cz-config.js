@@ -2,16 +2,16 @@ module.exports = {
 
   types: [
     {
-      value: 'WIP',
-      name : '💪  WIP:      Work in progress'
-    },
-    {
       value: 'feat',
       name : '✨  feat:     A new feature'
     },
     {
       value: 'fix',
       name : '🐞  fix:      A bug fix'
+    },
+    {
+      value: 'style',
+      name : '💅  style:    Code Style, Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)'
     },
     {
       value: 'refactor',
@@ -28,10 +28,6 @@ module.exports = {
     {
       value: 'chore',
       name : '🗯  chore:    Changes that don\'t modify src or test files. Such as updating build tasks, package manager'
-    },
-    {
-      value: 'style',
-      name : '💅  style:    Code Style, Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)'
     },
     {
       value: 'revert',
