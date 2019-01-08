@@ -13,7 +13,7 @@ interface IProps {
 @inject('indexStore')
 @observer class App extends Component<IProps, {}> {
   componentDidMount() {
-    // console.log(222);
+    console.log(222);
   }
   
   render() {
