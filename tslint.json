@@ -5,7 +5,7 @@
         "ordered-imports": [false],
         "object-literal-sort-keys": [false],
         "no-console": {
-            "severity": "warning",
+            "severity": "error",
             "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
         },
         "member-access": false,
