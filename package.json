@@ -37,9 +37,9 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "src/**/*.{ts,tsx}": [
       "tslint --fix -p . -c tslint.json",
-      "git add"]
+      "git add ."]
   },
   "devDependencies": {
     "husky": "^1.3.1",
